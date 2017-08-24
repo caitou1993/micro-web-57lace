@@ -51,6 +51,7 @@
 
 
 .publish-buying-info .accept i, .publish-buying-info .refuse i {
+    color: #fff;
     font-size: 12px;
     background-color: #bbb;
     border-radius: 50%;

@@ -9,6 +9,9 @@ body {
     -webkit-tap-highlight-color: transparent;
     background-color: #f2f2f2;
     min-width: 320px;
+    box-sizing: border-box;
+    padding-top: 57px;
+    position: relative;
 }
 input:focus {
     outline: none;
@@ -67,7 +70,7 @@ input::-webkit-input-palceholder {
 .border-right {
     position: relative;
 }
-.border-top:before {
+.border-right:before {
     content: " ";
     position: absolute;
     top: 0;
@@ -85,11 +88,11 @@ input::-webkit-input-palceholder {
 
 
 /*头部*/
-body {
-    box-sizing: border-box;
-    padding-top: 57px;
-    position: relative;
-}
+/*body {*/
+    /*box-sizing: border-box;*/
+    /*padding-top: 57px;*/
+    /*position: relative;*/
+/*}*/
 
 .head-wrapper {
     width: 100%;

@@ -25,6 +25,10 @@
 <div class="upload-image-wrapper">
     <div class="upload-image">
         <i class="icon-shangchuantupian"></i>
+        <input id="browse" type="file" multiple="multiple">
+    </div>
+    <div id="preview" class="preview">
+
     </div>
 </div>
 <div class="publish-supply-info">
@@ -40,7 +44,29 @@
 
 </div>
 <script>
-
+    var preview = document.getElementById('preview');
+    var browse = document.getElementById('browse');
+    browse.onchange = function () {
+        var files = browse.files;
+        console.log(111);
+        function readAndPreview(file) {
+            if ( /\.(jpe?g|png|gif)$/i.test(file.name)) {
+                var reader = new FileReader();
+                reader.addEventListener("load", function () {
+                    var image = new Image();
+                    console.log(222);
+                    image.height = 100;
+                    image.title = file.name;
+                    image.src = this.result;
+                    preview.appendChild( image );
+                }, false);
+                reader.readAsDataURL(file);
+            }
+        }
+        if (files) {
+            [].forEach.call(files, readAndPreview);
+        }
+    }
 </script>
 </body>
 

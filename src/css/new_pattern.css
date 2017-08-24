@@ -18,20 +18,26 @@
 }
 
 .head-wrapper .head .center input {
-    height: 31px;
-    line-height: 31px;
-    font-size: 10px;
-    margin: 1px 5px 1px 0;
+    height: 33px;
+    line-height: 33px;
+    font-size: 12px;
+    margin: 0 5px 0 0;
     flex: 1;
+    box-sizing: border-box;
 }
 
 .swiper-tag {
     width: 100%;
-    background-color: #f6f6f6;
     line-height: 45px;
+    background-color: #fff;
     display: flex;
-    position: relative;
-    z-index: 10;
+    position: fixed;
+    top: 57px;
+    /*z-index: 24;*/
+}
+
+body {
+    padding-top: 102px;
 }
 
 .swiper-tag .text {

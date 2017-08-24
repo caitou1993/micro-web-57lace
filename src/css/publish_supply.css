@@ -1,6 +1,6 @@
 .upload-image-wrapper {
     width: 100%;
-    height: 140px;
+    /*height: 140px;*/
     background-color: #fff;
     margin: 10px 0;
     overflow: hidden;
@@ -16,6 +16,30 @@
     margin:20px auto;
     padding-top: 30px;
     padding-left: 28px;
+    position: relative;
+    overflow: hidden;
+}
+
+.upload-image input {
+    position: absolute;
+    border: 1px solid red;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.upload-image-wrapper .preview {
+    margin: 0 10px 10px 10px;
+    text-align: left;
+}
+
+.upload-image-wrapper .preview img {
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
 }
 
 .publish-supply-info {

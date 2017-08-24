@@ -1,14 +1,14 @@
-.head-wrapper .head .text {
+.head-wrapper .head .center {
     height: 33px;
     width: 70%;
-    text-align: left;
     background-color: #fff;
     border-radius: 4px;
+    text-align: left;
     position: relative;
     display: flex;
 }
 
-.head-wrapper .head .text div {
+.head-wrapper .head .center div {
     color: #999;
     width: 36px;
     height: 33px;
@@ -17,20 +17,30 @@
     flex: 0 0 auto;
 }
 
-.head-wrapper .head .text input {
-    height: 31px;
-    line-height: 31px;
-    font-size: 10px;
+.head-wrapper .head .center input {
+    height: 33px;
+    line-height: 33px;
+    font-size: 12px;
+    margin: 0 5px 0 0;
     flex: 1;
-    /*margin-right: 5px;*/
-    margin: 1px 5px 1px 0;
+    box-sizing: border-box;
 }
+
+
 
 .swiper-tag {
     width: 100%;
     line-height: 45px;
     background-color: #fff;
+    /*margin-bottom: 12px;*/
     display: flex;
+    position: fixed;
+    top: 57px;
+    z-index: 24;
+}
+
+body {
+    padding-top: 104px;
 }
 
 .swiper-tag .text {
@@ -47,6 +57,11 @@
 .swiper-tag .text span.active {
     color: #4c93fd;
     border-bottom-color: #4c93fd;
+}
+
+.swiper-container {
+    min-height: 100%;
+    height: auto;
 }
 
 .quality-merchants-list-wrapper {
@@ -69,8 +84,8 @@
 }
 
 .quality-merchants-list-wrapper div img {
-    height: 100%;
     width: 100%;
+    display: block;
 }
 
 .merchant-num-tip {

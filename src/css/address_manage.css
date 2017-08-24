@@ -20,9 +20,12 @@
     right: 0;
 }
 
+html, body {
+    overflow: hidden;
+}
+
 body {
     padding-bottom: 44px;
-    overflow-y: hidden;
 }
 
 

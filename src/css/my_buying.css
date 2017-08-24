@@ -24,8 +24,15 @@
     width: 100%;
     line-height: 45px;
     background-color: #fff;
-    margin-bottom: 12px;
+    /*margin-bottom: 12px;*/
     display: flex;
+    position: fixed;
+    top: 57px;
+    z-index: 24;
+}
+
+body {
+    padding-top: 102px;
 }
 
 .swiper-tag .text {
@@ -44,34 +51,40 @@
     border-bottom-color: #4c93fd;
 }
 
-.buying-info-wrapper {
-    background-color: #fff;
-    margin-bottom: 7px;
+.swiper-container {
+    min-height: 100%;
+    height: auto;
 }
 
-.buying-info-wrapper .buying-info {
+.info-wrapper {
+    background-color: #fff;
+    /*margin-bottom: 7px;*/
+    margin: 7px 0;
+}
+
+.info-wrapper .info {
     display: flex;
 }
 
-.buying-info-wrapper .buying-info img {
+.info-wrapper .info img {
     width: 70px;
     height: 70px;
     margin: 10px;
     flex: 0 0 auto;
 }
 
-.buying-info-wrapper .buying-info .text {
+.info-wrapper .info .text {
     flex: 1;
     position: relative;
 }
 
-.buying-info .text .top {
+.info .text .top {
     font-size: 16px;
     position: absolute;
     top: 20px;
 }
 
-.buying-info .text .bottom {
+.info .text .bottom {
     color: #999;
     width: 100%;
     font-size: 14px;
@@ -79,21 +92,21 @@
     bottom: 10px;
 }
 
-.buying-info .text .bottom .num {
+.info .text .bottom .num {
     color: #4c93fd;
 }
 
-.buying-info .text .bottom .order-taking-num {
+.info .text .bottom .order-taking-num {
     float: left;
 }
 
-.buying-info .text .bottom .time {
+.info .text .bottom .time {
     float: right;
     padding-right: 10px;
 }
 
 
-.buying-info-wrapper .btn span {
+.info-wrapper .btn span {
     color: #999;
     height: 26px;
     width: 73px;
@@ -105,7 +118,7 @@
     margin: 5px 10px;
 }
 
-.buying-info-wrapper .btn span.active {
+.info-wrapper .btn span.active {
     color: #4c93fd;
     border-color: #4c93fd;
 }
@@ -125,6 +138,7 @@ body {
     display: flex;
     position: fixed;
     bottom: 0;
+    z-index: 24;
 }
 
 .down-app .logo {

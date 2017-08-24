@@ -63,11 +63,11 @@ textarea {
     border: none;
     outline: none;
     resize: none;
-    padding: 22px 22px 22px 0;
+    padding: 19px 22px 20px 0;
 }
 
-body {
-    overflow: hidden;
+body, html {
+    /*overflow: hidden;*/
 }
 
 .bottom-slide-wrapper {
