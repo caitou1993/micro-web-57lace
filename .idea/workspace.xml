@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a991eae1-d9d1-46a6-a257-92e8b9609964" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/checked.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/font11/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/font11/demo_fontclass.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/font11/demo_symbol.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/font11/demo_unicode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/font11/iconfont.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/font11/iconfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/font11/iconfont.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/font11/iconfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/font11/iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/font11/iconfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/版衣列表.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/address_manage.css" afterPath="$PROJECT_DIR$/src/css/address_manage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/common/common.css" afterPath="$PROJECT_DIR$/src/css/common/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/edit_address.css" afterPath="$PROJECT_DIR$/src/css/edit_address.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/my_buying.css" afterPath="$PROJECT_DIR$/src/css/my_buying.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/my_collection.css" afterPath="$PROJECT_DIR$/src/css/my_collection.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/new_pattern.css" afterPath="$PROJECT_DIR$/src/css/new_pattern.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/personal_info.css" afterPath="$PROJECT_DIR$/src/css/personal_info.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/publish_buying.css" afterPath="$PROJECT_DIR$/src/css/publish_buying.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/publish_buying_tip.css" afterPath="$PROJECT_DIR$/src/css/publish_buying_tip.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/publish_supply.css" afterPath="$PROJECT_DIR$/src/css/publish_supply.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/publish_supply_tip.css" afterPath="$PROJECT_DIR$/src/css/publish_supply_tip.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/settled_merchant.css" afterPath="$PROJECT_DIR$/src/css/settled_merchant.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/my_account.html" afterPath="$PROJECT_DIR$/src/my_account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/my_buying.html" afterPath="$PROJECT_DIR$/src/my_buying.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/my_collection.html" afterPath="$PROJECT_DIR$/src/my_collection.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/publish_supply.html" afterPath="$PROJECT_DIR$/src/publish_supply.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/settled_merchant.html" afterPath="$PROJECT_DIR$/src/settled_merchant.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/edit_address.html" />
-    </list>
+    <list default="true" id="a991eae1-d9d1-46a6-a257-92e8b9609964" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -49,8 +17,8 @@
       <file leaf-file-name="address_manage.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/address_manage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="286">
+              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -150,7 +118,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/红色版本micro-web-57lace" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunDashboard">
@@ -196,18 +164,18 @@
       <option name="presentableId" value="Default" />
       <updated>1503449302504</updated>
       <workItem from="1503449303801" duration="24442000" />
-      <workItem from="1503545887374" duration="22000" />
+      <workItem from="1503545887374" duration="144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24464000" />
+    <option name="totallyTimeSpent" value="24586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="473" y="0" width="822" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31887755" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3252551" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -474,8 +442,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/address_manage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="286">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding />
         </state>
       </provider>
